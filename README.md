@@ -8,6 +8,7 @@ A chaotic digital sandbox made by [nullcat-dev](https://github.com/nullcat-dev) 
 - UX is hell and its ruled by cats
 - trashy UI, meme filled soul that fulfills the cringe meter in you
 - stuff that should have died in 2000s repacked with modern algorithms and newer functionality
+- randomness
 
 ## status
 > complete degenerate level activeness on internet, new dev fresh out of college with zero skills, expect bugs, bad decisions and emotional damage
