@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ritual Initiated</title>
+  <style>
+    body {
+      background: #000;
+      color: #f00;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .sigil {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    button {
+      background: none;
+      border: 2px solid #f00;
+      color: #f00;
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 30px;
+      animation: flicker 1s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 100% { text-shadow: 0 0 5px #f00; }
+      50% { text-shadow: 0 0 20px #f00, 0 0 5px #fff; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sigil">⛧⛧⛧</div>
+  <h1>YOU HAVE BREACHED THE VOID</h1>
+  <p>The corrupted yarn coils. The Hellcat stirs.</p>
+
+  <button onclick="location.href='litterlord.html'">Summon</button>
+</body>
+</html>
